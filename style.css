@@ -1,0 +1,56 @@
+<stylesheet>h1 {
+  font-family: "Arial";
+  font-size: 50px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h2 {
+  font-family: "Arial";
+  font-weight: "lighter";
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: "Arial";
+  max-width: 320px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#b {
+  background-color: #80bfff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  align-content: center;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 150px
+  }
+  p {
+    font-size: 40px;
+    max-width: 750px
+  }
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+  h1 {
+    font-size: 100px
+  }
+  p {
+    font-size: 24px;
+    max-width: 500px;
+  }
+}
+
+</stylesheet>
